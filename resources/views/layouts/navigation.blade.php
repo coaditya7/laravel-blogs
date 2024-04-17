@@ -39,6 +39,22 @@
                     </p>
                 </a>
             </li>
+            <li class="nav-item">
+                <a href="{{ route('admin.categories.index') }}" class="nav-link">
+                    <i class="nav-icon fa fa-book"></i>
+                    <p>
+                        {{ __('Categories') }}
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ route('admin.posts.index') }}" class="nav-link">
+                    <i class="nav-icon fa fa-book"></i>
+                    <p>
+                        {{ __('Posts') }}
+                    </p>
+                </a>
+            </li>
 
         </ul>
     </nav>
